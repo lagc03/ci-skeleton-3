@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*/)?\.git+ - [R=404,L]
+
+    # development
+    RewriteBase /codeigniter-skeleton-3/
+    #  production and testing
+    #  RewriteBase /
+
+    RewriteCond %{REQUEST_URI} ^/system.*
+    RewriteRule ^(.*)$ index.php?/$1 [NC,L,QSA]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.+)$ index.php?/$1 [L]
+
+</IfModule>
+
+RedirectMatch 404 ^(.*/)?\.git
