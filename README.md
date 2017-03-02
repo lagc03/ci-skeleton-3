@@ -36,17 +36,19 @@ It provides a full CRUD base to make developing database interactions easier and
 as well as an event-based observer system, in-model data validation, intelligent table name guessing and soft delete.
 
 
-## Authors
 
+## Contributor
 
 ####Luis Garnica (updated plugins and moved to CI 3.1.3)
 
 +	<mailto:lagarnicachavira@utep.edu>
 
 
+## Authors
+
 ####Alessandro Arnodo (original CI Skeleton and My_Controller)
 
-+	[GitHub] (https://github.com/jamierumbelow/codeigniter-base-model)
++	[GitHub] (https://github.com/vesparny/codeigniter-html5boilerplate-twitter-bootstrap/)
 +	[@vesparny](https://twitter.com/vesparny)
 +	[http://alessandro.arnodo.net](http://alessandro.arnodo.net)
 +	<mailto:alessandro@arnodo.net>
