@@ -22,12 +22,12 @@ USAGE
 	if you have http://localhost/site you need to set RewriteBase /site/
 2. set up your defaults values in application/config/development/custom.php
 3. take a look to home controller and template view files to understand how does rendering works.
-4. create your template: I've set up an header, footer, nav, and main for example purpose. Skeleton.php contains the scaffolding page.
+4. create your template: set up an header, footer, nav, and main for example purpose. Skeleton.php contains the scaffolding page.
 5. pass your data to the view using in controller $this->data["my_var"] = "value";
 
 My_Controller (Alessandro Arnodo)
 ------------------- 
-is made for my basic page template.
+is made for basic page template.
 You need to customize it in order to match your needs.
 
 My_Model (Jamie Rumbelow)
@@ -41,7 +41,7 @@ as well as an event-based observer system, in-model data validation, intelligent
 
 ####Luis Garnica (updated plugins and moved to CI 3.1.3)
 
-+	<mailto:lagarnicachavira@utep.edu>
++	<mailto:luis@gitgudconsulting.com>
 
 
 ## Authors
